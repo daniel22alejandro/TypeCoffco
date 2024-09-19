@@ -3,11 +3,12 @@ import { ReactNode } from "react";
 type MyButtonProps = {
   children: ReactNode;
   color: String;
+
 };
 const Mybutton = ({ children, color }: MyButtonProps) => {
   return (
     <div>
-      <Button className={`bg-${color}`}>{children}</Button>
+      <Button type={"submit"} className={`bg-${color} text-white`}>{children}</Button>
     </div>
   );
 };
