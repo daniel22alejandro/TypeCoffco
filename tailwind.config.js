@@ -10,7 +10,16 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        sena: "rgb(57, 169, 0)",
+        hover: "rgb(249,249,250)",
+      },
+      fontFamily: {
+        sans: ["Work Sans", "sans-serif"] /* principal titulos */,
+        calibri: ["Calibri", "Arial", "sans-serif"] /* secundaria  */,
+      },
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
