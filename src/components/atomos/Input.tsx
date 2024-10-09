@@ -27,3 +27,4 @@ const InputAtomo = ({ type, placeholder, name, errors, register }: Props) => {
 };
 
 export default InputAtomo;
+  
